@@ -16,3 +16,9 @@ module.exports = {
     afficherMateriel,
     verifierDisponibilite
 };
+
+function supprimerMateriel(reference) {
+    console.log("Suppression du materiel " + reference);
+}
+
+module.exports.supprimerMateriel = supprimerMateriel;
