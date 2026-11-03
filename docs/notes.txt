@@ -1,0 +1,4 @@
+Notes du projet :
+- Ajouter la gestion des equipements.
+- Ajouter la gestion des utilisateurs.
+- Prevoir une documentation.
