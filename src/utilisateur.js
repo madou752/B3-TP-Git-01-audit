@@ -7,3 +7,10 @@ function creerUtilisateur(nom, email) {
 }
 
 module.exports = creerUtilisateur;
+
+function desactiverUtilisateur(utilisateur) {
+    utilisateur.actif = false;
+    return utilisateur;
+}
+
+module.exports.desactiverUtilisateur = desactiverUtilisateur;
